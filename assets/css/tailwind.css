@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        font-family: 'Manrope', sans-serif;
+    }
+    .btn-primary {
+        @apply bg-[#D87D4A] text-white  py-3 mt-10 text-sm;
+    }
+
+    .btn-primary-lighten {
+        @apply bg-[#FBAF85];
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .content-container {
+        max-width: 1110px;
+    }
+}
