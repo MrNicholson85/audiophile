@@ -1,11 +1,13 @@
 <template>
   <div>
-    <header class="container mx-auto bg-[#101010]">
+    <header class="bg-[#141414] z-10 fixed w-full">
       <nav
-        class="flex justify-between content-container mx-auto py-9 text-white devider"
+        class="flex justify-between container mx-aut py-9 text-white devider"
       >
-        <NuxtLink to="/" class="font-bold">Audiophile</NuxtLink>
-        <ul class="flex justify-between gap-4">
+        <NuxtLink to="/" class="font-bold">audiophile</NuxtLink>
+        <ul
+          class="flex justify-between gap-4 uppercase text-[13px] tracking-[2px] text-bold"
+        >
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/products/earphones">Earphones</NuxtLink></li>
           <li><NuxtLink to="/products/headphones">Headphones</NuxtLink></li>
@@ -15,8 +17,13 @@
       </nav>
     </header>
     <!-- Page Content-->
-    <div class="container mx-auto">
+    <div>
       <slot />
     </div>
   </div>
 </template>
+<style scoped>
+header nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+</style>
