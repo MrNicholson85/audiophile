@@ -7,7 +7,7 @@
         font-family: 'Manrope', sans-serif;
     }
     .btn-primary {
-        @apply bg-[#D87D4A] text-white  py-3 mt-10 text-sm;
+        @apply bg-[#D87D4A] text-white py-3 mt-10 text-sm;
     }
 
     .btn-primary-lighten {

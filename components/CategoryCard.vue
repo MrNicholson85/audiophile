@@ -1,5 +1,5 @@
 <template>
-  <div class="container categories flex gap-[30px] py-36">
+  <div class="md:container categories md:flex gap-[30px] py-36">
     <NuxtLink to="/products/headphones" class="relative">
       <div
         class="absolute cat-bg w-[350px] h-[204px] rounded-lg bottom-0"

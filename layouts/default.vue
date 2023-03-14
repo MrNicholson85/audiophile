@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <header class="bg-[#141414] z-10 fixed w-full">
+  <div class="">
+    <header class="bg-[#141414] z-10 w-full">
       <nav
         class="flex justify-between container mx-aut py-9 text-white devider"
       >
-        <NuxtLink to="/" class="font-bold">audiophile</NuxtLink>
+        <NuxtLink to="/" class="font-bold text-xl">audiophile</NuxtLink>
         <ul
           class="flex justify-between gap-4 uppercase text-[13px] tracking-[2px] text-bold"
         >
