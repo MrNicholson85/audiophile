@@ -1,11 +1,13 @@
 <template>
-  <div class="md:container categories md:flex gap-[30px] py-36">
-    <NuxtLink to="/products/headphones" class="relative">
+  <div
+    class="md:container grid md:flex md:gap-[10px] sm:gap-[30px] lg:gap-[30px] md:justify-center py-36"
+  >
+    <NuxtLink to="/products/headphones" class="relative sm:mb-6 md:mb-0">
       <div
-        class="absolute cat-bg w-[350px] h-[204px] rounded-lg bottom-0"
+        class="absolute cat-bg w-[327px] sm:mx-0 mx-6 md:w-[223px] lg:w-[350px] h-[204px] rounded-lg bottom-0"
       ></div>
       <div
-        class="relative text-center w-[350px] grid justify-center gap-y-4 top-[-40px]"
+        class="relative text-center md:w-[223px] lg:w-[350px] grid justify-center gap-y-4 top-[-40px]"
       >
         <div class="h-[200px]">
           <img class="relative top-[20px]" :src="catHeadphoneImage" />
@@ -18,12 +20,12 @@
         </p>
       </div>
     </NuxtLink>
-    <NuxtLink to="/products/speakers" class="relative">
+    <NuxtLink to="/products/speakers" class="relative mb-6 md:mb-0">
       <div
-        class="absolute cat-bg w-[350px] h-[204px] rounded-lg bottom-0"
+        class="absolute cat-bg w-[327px] sm:mx-0 mx-6 md:w-[223px] lg:w-[350px] h-[204px] rounded-lg bottom-0"
       ></div>
       <div
-        class="relative text-center w-[350px] grid justify-center gap-y-4 top-[-40px]"
+        class="relative text-center md:w-[223px] lg:w-[350px] grid justify-center gap-y-4 top-[-40px]"
       >
         <div class="h-[200px]">
           <img class="relative top-[30px]" :src="catSpeakerImage" />
@@ -38,10 +40,10 @@
     </NuxtLink>
     <NuxtLink to="/products/earphones" class="relative">
       <div
-        class="absolute cat-bg w-[350px] h-[204px] rounded-lg bottom-0"
+        class="absolute cat-bg w-[327px] sm:mx-0 mx-6 md:w-[223px] lg:w-[350px] h-[204px] rounded-lg bottom-0"
       ></div>
       <div
-        class="relative text-center w-[350px] grid justify-center gap-y-4 top-[-40px]"
+        class="relative text-center md:w-[223px] lg:w-[350px] grid justify-center gap-y-4 top-[-40px]"
       >
         <div class="h-[200px]">
           <img class="relative top-[40px]" :src="catEarphoneImage" />

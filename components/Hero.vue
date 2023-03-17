@@ -3,15 +3,17 @@
     <div v-if="p.id === 4">
       <div class="hero h-[600px] lg:h-[769px]">
         <div
-          class="md:container mx-auto flex h-[600px] lg:h-[768px] justify-between gap-x-11 bg-[0_-110px] bg-cover lg:bg-center bg-no-repeat bg-[url('/assets/images/image-header-mobile.jpg')] lg:bg-[url('/assets/images/HomePageHero.png')] md:bg-[url('/assets/images/image-header-tablet.jpg')]"
+          class="md:container mx-auto flex h-[600px] lg:h-[768px] justify-between gap-x-11 md:bg-[0_-110px] bg-cover lg:bg-center bg-no-repeat bg-[url('/assets/images/image-header-mobile.jpg')] lg:bg-[url('/assets/images/HomePageHero.png')] md:bg-[url('/assets/images/image-header-tablet.jpg')]"
         >
           <div
             class="text-white lg:w-1/2 sm:w-full grid grid-cols-1 place-content-center lg:text-left text-center"
           >
-            <p class="text-sm tracking-[10px] opacity-[49.64%] mb-6">
+            <p class="text-sm tracking-[10px] opacity-[49.64%] mb-4 md:mb-6">
               NEW PRODUCT
             </p>
-            <p class="text-[56px] leading-[58px] mb-6 uppercase font-bold my-1">
+            <p
+              class="text-4xl md:text-[56px] md:leading-[58px] mb-6 uppercase font-bold my-1"
+            >
               {{ p.name }}
             </p>
             <p

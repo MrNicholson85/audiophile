@@ -1,5 +1,6 @@
 <template>
   <Hero />
+  <CategoryCard />
 </template>
 
 <script setup>
