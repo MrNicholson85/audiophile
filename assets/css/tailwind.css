@@ -22,4 +22,7 @@
         @apply bg-[#f1f1f1]
     }
 
+    .nav-hover {
+        @apply text-[#d87d4a]
+    }
 }

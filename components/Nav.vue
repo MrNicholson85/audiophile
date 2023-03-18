@@ -25,10 +25,22 @@
         <ul
           class="hidden justify-between lg:flex gap-4 uppercase text-[13px] tracking-[2px] text-bold"
         >
-          <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/products/earphones">Earphones</NuxtLink></li>
-          <li><NuxtLink to="/products/headphones">Headphones</NuxtLink></li>
-          <li><NuxtLink to="/products/speakers">Speakers</NuxtLink></li>
+          <li><NuxtLink to="/" class="hover:nav-hover">Home</NuxtLink></li>
+          <li>
+            <NuxtLink to="/products/earphones" class="hover:nav-hover"
+              >Earphones</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/products/headphones" class="hover:nav-hover"
+              >Headphones</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink to="/products/speakers" class="hover:nav-hover"
+              >Speakers</NuxtLink
+            >
+          </li>
         </ul>
         <!-- /Desktop Nav -->
       </div>
