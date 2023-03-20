@@ -32,7 +32,7 @@
         </div>
         <h3 class="font-bold uppercase">Speakers</h3>
         <p
-          class="font-bold text-[13px] text-['#000000'] opacity-50 flex justify-center align-middle"
+          class="font-bold text-[13px] text-['#000000'] opacity-50 flex justify-center align-middle hover:nav-hover"
         >
           SHOP<img class="pl-[13px]" :src="ctaArrow" alt="cat arrow" />
         </p>
@@ -50,7 +50,7 @@
         </div>
         <h3 class="font-bold uppercase">earphones</h3>
         <p
-          class="font-bold text-[13px] text-['#000000'] opacity-50 flex justify-center align-middle"
+          class="font-bold text-[13px] text-['#000000'] opacity-50 flex justify-center align-middle hover:nav-hover"
         >
           SHOP<img class="pl-[13px]" :src="ctaArrow" alt="cat arrow" />
         </p>
