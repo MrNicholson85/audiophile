@@ -25,4 +25,9 @@
     .nav-hover {
         @apply text-[#d87d4a]
     }
+
+    .footerEffect::before {
+        content: '';
+        @apply w-[101px] mx-auto md:m-0 h-[4px] bg-[#D87D4A] flex
+    }
 }
