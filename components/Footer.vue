@@ -1,4 +1,5 @@
 <template>
+  <LastCall />
   <div class="bg-black text-white pt-12 pb-6">
     <div
       class="md:container md:px-[39px] lg:p-0 grid gap-12 lg:block justify-center md:justify-start"
@@ -89,6 +90,7 @@
 </template>
 
 <script setup>
+import LastCall from "~~/components/LastCall.vue";
 import Logo from "~~/assets/images/audiophile-logo.svg";
 import iconFB from "~~/assets/images/icon-facebook.svg";
 import iconTW from "~~/assets/images/icon-twitter.svg";

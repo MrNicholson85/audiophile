@@ -30,4 +30,8 @@
         content: '';
         @apply w-[101px] mx-auto md:m-0 h-[4px] bg-[#D87D4A] flex
     }
+
+    .gearImages {
+        @apply bg-[url('/assets/images/image-best-gear-mobile.jpg')] md:bg-[url('/assets/images/image-best-gear-tablet.jpg')] lg:bg-[url('/assets/images/image-best-gear-desktop.jpg')]
+    }
 }
