@@ -1,9 +1,9 @@
 <template>
   <div
-    class="lg:container lg:pl-[117px] gap[32px] md:gap-16 lg:gap-[138px] grid lg:flex overflow-hidden bg-[#d87d4a] rounded-lg md:mx-[39px] mx-6 lg:mx-auto relative py-14 lg:pb-0"
+    class="lg:container lg:pl-[117px] gap[32px] md:gap-16 lg:gap-[138px] grid lg:flex overflow-hidden bg-[#d87d4a] rounded-lg md:mx-[39px] mx-6 lg:mx-auto relative py-14 lg:pb-0 bg-[url('/assets/images/Group4.svg')] lg:bg-[-190px_-78px] md:bg-[-92px_-316px] bg-[-194px_-146px] bg-no-repeat bg-[length:720px_561px] md:bg-[length:871px_1038px] lg:bg-[length:1050px_1038px]"
   >
     <div class="lg:w-[410px] w-full">
-      <div class="bg-[url('/assets/images/ovalsEffect.svg')]"></div>
+      <div class=""></div>
       <img
         class="md:p-3 lg:p-0 lg:bottom-[-27px] relative w-[172px] md:w-[197px] lg:w-full mx-auto mb-2"
         :src="zx9Speaker"
