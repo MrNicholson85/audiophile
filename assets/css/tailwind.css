@@ -7,7 +7,11 @@
         font-family: 'Manrope', sans-serif;
     }
     .btn-primary {
-        @apply bg-[#D87D4A] text-white py-3 mt-10 text-sm;
+        @apply   text-white py-3 mt-10 text-sm;
+    }
+
+    .btn-secondary {
+        @apply bg-[#D87D4A] text-white py-3 px-5
     }
 
     .btn-primary-lighten {
@@ -33,5 +37,13 @@
 
     .gearImages {
         @apply bg-[url('/assets/images/image-best-gear-mobile.jpg')] md:bg-[url('/assets/images/image-best-gear-tablet.jpg')] lg:bg-[url('/assets/images/image-best-gear-desktop.jpg')]
+    }
+
+    .internalHero {
+        @apply text-[40px] mb-[160px] uppercase bg-[#141414] text-white font-bold text-center h-[239px] grid place-content-center justify-center
+    }
+
+    .brandTextOrange {
+        @apply text-[#D87D4A]
     }
 }
