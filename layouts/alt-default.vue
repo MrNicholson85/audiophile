@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="bg-[#f2f2f2]">
     <header class="bg-[#141414] z-10 w-full">
       <Nav />
     </header>
@@ -8,7 +8,7 @@
       <slot />
     </div>
   </div>
-  <LastCall />
+
   <Footer />
 </template>
 <script setup></script>

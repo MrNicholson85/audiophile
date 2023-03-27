@@ -1,5 +1,4 @@
 <template>
-  <LastCall />
   <div class="bg-black text-white pt-12 pb-6">
     <div
       class="md:container md:px-[39px] lg:p-0 grid gap-12 lg:block justify-center md:justify-start"

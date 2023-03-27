@@ -44,7 +44,9 @@
         </ul>
         <!-- /Desktop Nav -->
       </div>
-      <div><img :src="shoppingCart" /></div>
+      <div class="cursor-pointer" @click="toggleModal">
+        <img :src="shoppingCart" />
+      </div>
     </nav>
     <ul
       class="grid lg:hidden lg:justify-between gap-4 uppercase lg:text-[13px] tracking-[2px] justify-center text-bold text-center text-white lg:pb-10 text-2xl text-bold"
@@ -56,12 +58,20 @@
       <li><NuxtLink to="/products/speakers">Speakers</NuxtLink></li>
     </ul>
   </div>
+
+  <ShoppingCartModal :modalActive="modalActive" @close-modal="toggleModal" />
 </template>
 
 <script setup>
 import logo from "/assets/images/audiophile-logo.svg";
 import shoppingCart from "/assets/images/shopping-cart.svg";
 import menuBtn from "/assets/images/menuBtn.svg";
+import ShoppingCartModal from "./ShoppingCartModal.vue";
+
+const modalActive = ref(null);
+const toggleModal = () => {
+  modalActive.value = !modalActive.value;
+};
 </script>
 
 <style scoped>
