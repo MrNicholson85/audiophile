@@ -24,11 +24,13 @@
         remarkable sound.
       </p>
       <div>
-        <button
-          class="bg-black w-[160px] text-[13px] text-white px-8 py-3 uppercase"
-        >
-          see product
-        </button>
+        <NuxtLink to="/products/6">
+          <button
+            class="bg-black w-[160px] text-[13px] text-white px-8 py-3 uppercase"
+          >
+            see product
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </div>

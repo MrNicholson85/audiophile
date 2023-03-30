@@ -3,8 +3,10 @@
     <div class="mb-6 mt-8 opacity-50 text-black text-[15px]">
       <NuxtLink :to="`/products/`">Go Back</NuxtLink>
     </div>
-    <div class="checkout flex pb-[104px] justify-between">
-      <div class="w-[730px] p-[54px_48px] bg-white rounded-xl">
+    <div class="checkout grid lg:flex pb-[104px] justify-between">
+      <div
+        class="w-[327px] md:w-[730px] p-[24px_24px] md:p-[54px_48px] bg-white rounded-xl mb-8 lg:mb-0"
+      >
         <h3 class="font-bold text-4xl leading-9 uppercase mb-[41px]">
           checkout
         </h3>
@@ -14,8 +16,8 @@
           >
             Billing Details
           </div>
-          <div class="form-row flex justify-between mb-6">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-6">
+            <div class="w-[280px] md:w-[309px] mb-6 md:mb-0">
               <label class="font-bold flex mb-[9px]" for="name">Name</label>
               <input
                 class="w-full flex border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
@@ -24,7 +26,7 @@
                 required
               />
             </div>
-            <div class="w-[309px]">
+            <div class="w-[280px] md:w-[309px]">
               <label class="font-bold flex mb-[9px]" for="email"
                 >Email Address</label
               >
@@ -36,8 +38,8 @@
               />
             </div>
           </div>
-          <div class="form-row flex justify-between mb-[53px]">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-[53px]">
+            <div class="w-[280px] md:w-[309px]">
               <label class="font-bold flex mb-[9px]" for="name"
                 >Phone Number</label
               >
@@ -55,21 +57,21 @@
           >
             Shipping Info
           </div>
-          <div class="form-row flex justify-between mb-6">
+          <div class="form-row grid md:flex justify-between mb-6">
             <div class="w-full">
               <label class="font-bold flex mb-[9px]" for="address"
-                >Adress</label
+                >Address</label
               >
               <input
-                class="w-full flex border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
+                class="w-[280px] md:w-full flex border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
                 type="address"
                 placeholder="1137 Williams Avenue"
                 required
               />
             </div>
           </div>
-          <div class="form-row flex justify-between mb-6">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-6">
+            <div class="w-[280px] md:w-[309px] mb-6 md:mb-0">
               <label class="font-bold flex mb-[9px]" for="zip">Zip Code</label>
               <input
                 class="w-full flex border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
@@ -78,7 +80,7 @@
                 required
               />
             </div>
-            <div class="w-[309px]">
+            <div class="w-[280px] md:w-[309px]">
               <label class="font-bold flex mb-[9px]" for="city">City</label>
               <input
                 class="w-full flex border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
@@ -88,8 +90,8 @@
               />
             </div>
           </div>
-          <div class="form-row flex justify-between mb-[53px]">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-[53px]">
+            <div class="w-[280px] md:w-[309px]">
               <label class="font-bold flex mb-[9px]" for="countr"
                 >Country</label
               >
@@ -108,13 +110,13 @@
               Payment Details
             </div>
           </div>
-          <div class="form-row flex justify-between mb-[53px]">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-[53px]">
+            <div class="w-[280px] md:w-[309px] mb-[17px] md:mb-0">
               <div class="font-bold text-xs tracking-[-0.214286px]">
                 Payment Method
               </div>
             </div>
-            <div class="grid w-[309px]">
+            <div class="grid w-[280px] md:w-[309px]">
               <div
                 class="flex mb-4 items-center border-[#CFCFCF] h-[56px] border-2 rounded-xl p-[18px_24px]"
               >
@@ -141,8 +143,8 @@
               </div>
             </div>
           </div>
-          <div class="form-row flex justify-between mb-6">
-            <div class="w-[309px]">
+          <div class="form-row grid md:flex justify-between mb-6">
+            <div class="w-[280px] md:w-[309px] mb-6 md:mb-0">
               <label class="font-bold flex mb-[9px] text-xs" for="name"
                 >e-Money Number</label
               >
@@ -153,7 +155,7 @@
                 required
               />
             </div>
-            <div class="w-[309px]">
+            <div class="w-[280px] md:w-[309px]">
               <label class="font-bold flex mb-[9px] text-xs" for="email"
                 >e-Money Pin</label
               >
@@ -167,7 +169,9 @@
           </div>
         </form>
       </div>
-      <div class="w-[350px] h-[100%] block p-[54px_48px] bg-white rounded-xl">
+      <div
+        class="w-full lg:w-[350px] h-[100%] block p-[54px_48px] bg-white rounded-xl"
+      >
         <div
           class="mb-[31px] uppercase font-bold text-lg leading-6 tracking-[1.2px]"
         >

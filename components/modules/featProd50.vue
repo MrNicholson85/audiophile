@@ -8,11 +8,13 @@
         class="grid gap-8 md:w-[339px] h-[200px] md:h-[320px] align-middle place-content-center rounded-lg bg-[#f1f1f1] lg:w-[540px]"
       >
         <h3 class="font-bold text-[28px]">YX1 EARPHONES</h3>
-        <button
-          class="w-[160px] text-[13px] font-bold border-black border-[1px] py-[15px] uppercase"
-        >
-          see product
-        </button>
+        <NuxtLink to="products/1">
+          <button
+            class="w-[160px] text-[13px] font-bold border-black border-[1px] py-[15px] uppercase"
+          >
+            see product
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </div>

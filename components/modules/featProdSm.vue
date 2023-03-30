@@ -6,11 +6,13 @@
       class="grid gap-8 w-[204px] h-[320px] align-middle place-content-center ml-6 md:ml-24"
     >
       <h3 class="font-bold text-[28px] uppercase">ZX7 Speaker</h3>
-      <button
-        class="w-[160px] text-[13px] font-bold border-black border-[1px] py-[15px] uppercase"
-      >
-        see product
-      </button>
+      <NuxtLink to="/products/5">
+        <button
+          class="w-[160px] text-[13px] font-bold border-black border-[1px] py-[15px] uppercase"
+        >
+          see product
+        </button>
+      </NuxtLink>
     </div>
   </div>
 </template>
