@@ -240,6 +240,7 @@
           <div>
             <div
               class="btn-secondary cursor-pointer text-center uppercase text-xs"
+              @click="toggleModal"
             >
               Continue & Pay
             </div>
@@ -248,12 +249,19 @@
       </div>
     </div>
   </div>
+  <PurchaseModal :modalActive="modalActive" @close-modal="toggleModal" />
 </template>
 
 <script setup>
+import PurchaseModal from "~~/components/purchaseModal.vue";
 definePageMeta({
   layout: "alt-default",
 });
+
+const modalActive = ref(null);
+const toggleModal = () => {
+  modalActive.value = !modalActive.value;
+};
 </script>
 
 <style scoped></style>
