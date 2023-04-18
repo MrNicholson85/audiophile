@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Audiophile e-commerce website
+## Frontend Mentor Challange
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+This huge e-commerce challenge will provide an incredible test for your front-end skills. Once you're done, you'll have an amazing project to add to your portfolio!
 
 ## Setup
 
