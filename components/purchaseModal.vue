@@ -5,10 +5,12 @@
     @click="$emit('close-modal')"
   >
     <div class="flex justify-center items-center pt-[190px]">
-      <div class="rounded-xl bg-white w-[540px] h-[581px] p-[48px]">
+      <div
+        class="rounded-xl bg-white md:w-[540px] w-[350px] md:h-[581px] p-[48px]"
+      >
         <div class="mb-[33px]"><img :src="CheckMark" /></div>
         <h4
-          class="mb-4 text-[32px] font-bold uppercase leading-[36px] tracking-[1.14px]"
+          class="mb-4 text-[24px] leading-[24px] md:text-[32px] font-bold uppercase md:leading-[36px] tracking-[1.14px]"
         >
           Tank You <br />
           For Your Order
@@ -17,7 +19,7 @@
           You will receive an email confirmation shortly.
         </p>
         <div
-          class="bg-[#F2F2F2] h-[140px] overflow-hidde rounded-xl flex justify-between mb-12"
+          class="bg-[#F2F2F2] md:h-[140px] overflow-hidde md:rounded-xl grid md:flex justify-between mb-12"
         >
           <div class="p-6 flex">
             <div class="flex w-[198px] items-center justify-between">
@@ -31,7 +33,9 @@
               <div class="text-black opacity-50 font-bold">X1</div>
             </div>
           </div>
-          <div class="bg-black text-white rounded-r-lg w-[198px] p-[41px_32px]">
+          <div
+            class="bg-black text-white md:rounded-r-lg w-[254px] md:w-[198px] p-[41px_32px]"
+          >
             <div class="uppercase text-white opacity-50 mb-[8px]">
               Grand Total
             </div>

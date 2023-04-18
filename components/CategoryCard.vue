@@ -1,7 +1,7 @@
 <template>
   <div class="mx:auto lg:container">
     <div
-      class="grid md:flex md:gap-[10px] sm:gap-[30px] lg:gap-[30px] md:justify-between py-36"
+      class="grid md:flex md:gap-[10px] sm:gap-[30px] lg:gap-[30px] md:justify-between py-36 -z-10 relative"
     >
       <NuxtLink to="/products/headphones" class="relative sm:mb-6 md:mb-0">
         <div
