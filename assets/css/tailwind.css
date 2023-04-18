@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @layer components {
     body {
@@ -20,7 +20,9 @@
 
     .container {
         @apply 
-            lg:w-[1110px];
+            lg:w-[1110px]
+            md:w-[689px]
+            w-[327px]
     }
 
     .cat-bg {
