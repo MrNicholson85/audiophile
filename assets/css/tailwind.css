@@ -19,7 +19,8 @@
     }
 
     .container {
-        @apply w-[1110px];
+        @apply 
+            lg:w-[1110px];
     }
 
     .cat-bg {
