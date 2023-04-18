@@ -84,12 +84,13 @@
       <div class="hidden lg:block" v-if="p.id % 2 == 1">
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/desktop/image-category-page-preview.jpg'
           "
           class="hidden lg:block"
         />
+
         <img
           :src="
             '/_nuxt/assets/images/product-' +
