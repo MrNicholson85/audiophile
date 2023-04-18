@@ -93,7 +93,7 @@
 
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/tablet/image-category-page-preview.jpg'
           "
@@ -101,7 +101,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/mobile/image-category-page-preview.jpg'
           "

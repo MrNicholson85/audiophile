@@ -11,7 +11,7 @@
       <div class="mb-[52px] hidden lg:block" v-if="p.id % 2 == 0">
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/desktop/image-category-page-preview.jpg'
           "
@@ -19,7 +19,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/tablet/image-category-page-preview.jpg'
           "
@@ -27,7 +27,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/mobile/image-category-page-preview.jpg'
           "
@@ -37,7 +37,7 @@
       <div class="mb-[52px] block lg:hidden">
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/desktop/image-category-page-preview.jpg'
           "
@@ -45,7 +45,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/tablet/image-category-page-preview.jpg'
           "
@@ -53,7 +53,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/mobile/image-category-page-preview.jpg'
           "
@@ -85,7 +85,7 @@
       <div class="hidden lg:block" v-if="p.id % 2 == 1">
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/desktop/image-category-page-preview.jpg'
           "
@@ -93,7 +93,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/tablet/image-category-page-preview.jpg'
           "
@@ -101,7 +101,7 @@
         />
         <img
           :src="
-            '/_nuxt/assets/images/product-' +
+            'https://slickslices-gatsby.s3.us-west-2.amazonaws.com/audiophile/product-' +
             p.slug +
             '/mobile/image-category-page-preview.jpg'
           "
