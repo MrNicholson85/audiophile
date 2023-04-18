@@ -24,7 +24,7 @@
             </p>
             <NuxtLink
               :to="`/products/3`"
-              class="btn-primary hover:btn-primary-lighten w-[160px] mx-auto lg:m-0 text-center"
+              class="btn-secondary hover:btn-primary-lighten w-[160px] mx-auto lg:m-0 text-center"
             >
               SEE PRODUCT
             </NuxtLink>

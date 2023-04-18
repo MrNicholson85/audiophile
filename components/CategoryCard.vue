@@ -1,5 +1,5 @@
 <template>
-  <div class="mx:auto lg:container">
+  <div class="mx-6 lg:mx:auto lg:container">
     <div
       class="grid md:flex md:gap-[10px] sm:gap-[30px] lg:gap-[30px] md:justify-between py-36 -z-10 relative"
     >

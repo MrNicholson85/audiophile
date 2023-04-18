@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto bg-no-repeat rounded-lg block lg:hidden gearImages w-[327px] h-[300px] md:h-[300px] md:w-[689px] bg-cover mt-[96px] mb-[63px]"
+    class="mx-6 lg:container lg:mx-auto bg-no-repeat rounded-lg block lg:hidden gearImages h-[300px] md:h-[300px] bg-cover mt-[96px] mb-[63px]"
   ></div>
   <div class="grid lg:flex lg:container gap-[125px] lg:my-[200px]">
     <div
